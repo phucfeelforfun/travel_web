@@ -739,6 +739,7 @@ header {
     padding: 30px;
     left: 169px;
     top: 8px;
+    width: 290px;
 }
 
 .content-right-one-text {
@@ -746,17 +747,21 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+.content-right-one-text-image{
+    width:100%;
+    border-radius: 16px;
+    margin:23px 0 10px 0;
+} 
+.content-right-one-text-image img{
+    margin:0;
+}
 .content-right-one-text h1 {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
 }
 
-.content-right-one img {
-    border-radius: 16px;
-    margin: 23px 0 10px 0;
-}
+
 
 .content-right-one-text-footer {
     display: flex;
@@ -782,6 +787,7 @@ header {
     font-size: 12px;
     line-height: 15px;
     color: #777E91;
+    margin-right:62px;
 }
 
 .content-right-one-text-footer button {
@@ -954,4 +960,124 @@ color: #777E91;
     text-align: center;
     width:60px;
     height:60px;
+}
+.six {
+    background-color: #3B71FE;
+    position: relative;
+    padding:70px;
+    
+
+}
+.content-six {
+    width:71.5%;
+    margin:auto;
+}
+.content-six h1:first-child{
+    font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color:#FFFFFF;
+text-align: center;
+letter-spacing: -0.01em;
+margin:0;
+}
+.content-six-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+text-align: center;
+
+margin:0;
+margin-top:10px;
+color: #F4F5F6;
+}
+.content-six-foot{
+    display:flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-six-footer {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 25px 28px 15px;
+    width:calc(22.5%-3.4%);
+}
+.content-six-footer h1{
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+margin:18px 0 2px 0;
+text-align: center;
+}
+.content-six-footer p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+text-align: center;
+
+margin:0;
+color: #777E91;
+}
+.seven {
+    padding:70px 0;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seven h1{
+    font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.01em;
+
+margin:0;
+color: #23262F; 
+}
+.content-seven {
+    
+    display: grid;
+  grid-template-columns: 1fr 1fr; /* Chia thành 2 cột bằng nhau */
+  grid-column-gap: 19.6%;
+    grid-row-gap: 56px;
+    margin-top:74px;
+}
+.seven-card div{
+    display: flex;
+}
+.seven-card div h1{
+    font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height, or 150% */
+
+
+/* gray/1 */
+
+color: #23262F;
+margin-left:16px;
+}
+.seven-card p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+margin:0;
+margin-top:20px;
+color: #353945;
+
 }

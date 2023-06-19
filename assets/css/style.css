@@ -817,14 +817,17 @@ header {
     border-radius: 10px;
     border: none;
     margin-left:62px;
-}.content-right-one-text-footer button:hover {
-    background-color: #0047f9;
-}
-.content-right-one-text-footer button p {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
+    transition: 0.3s;
+}.content-right-one-text-footer button:hover {
+    background-color: #003bd2;
+    font-weight: bold;
+}
+.content-right-one-text-footer button p {
+    
 }
 
 .content-right-two {
@@ -908,15 +911,16 @@ border-radius: 8px;
 border:none;
 width: 184px;
 height: 34px;
-}
-.content-right-three button p {
-    margin:0;
-    font-weight: 700;
+font-weight: 700;
 font-size: 12px;
 line-height: 15px;
 color: #FFFFFF;
-
+transition: 0.3s;
 }
+.content-right-three button:hover {
+    background: #003bd2;
+}
+
 .content-left {
     display: flex;
 flex-direction: column;

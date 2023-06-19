@@ -1,3 +1,6 @@
+. {
+    box-sizing: border-box;
+}
 body {
     display: block;
     margin: 0;
@@ -738,6 +741,7 @@ header {
     background-color: #ffffff;
     position: relative;
     z-index: 0;
+    box-sizing: border-box;
 }
 
 .content-right .content-right-one {
@@ -751,8 +755,13 @@ header {
     top: 8px;
     width: 350px;
     box-sizing: border-box;
+    transition: width 0.3s, transform 0.3s;
 }
-
+.content-right-one:hover{
+    width: 340px;
+  transform: scale(1.5);
+  z-index:4;
+}
 .content-right-one-text {
     display: flex;
     justify-content: space-between;
@@ -776,7 +785,7 @@ header {
 
 .content-right-one-text-footer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -798,7 +807,7 @@ header {
     font-size: 12px;
     line-height: 15px;
     color: #777E91;
-    margin-right:62px;
+    margin-left:18px;
 }
 
 .content-right-one-text-footer button {
@@ -807,8 +816,10 @@ header {
     background: #3B71FE;
     border-radius: 10px;
     border: none;
+    margin-left:62px;
+}.content-right-one-text-footer button:hover {
+    background-color: #0047f9;
 }
-
 .content-right-one-text-footer button p {
     font-weight: 500;
     font-size: 12px;
@@ -831,8 +842,12 @@ header {
     top: 132px;
     width:216px;
     box-sizing: border-box;
+    transition: width 0.3s, transform 0.3s;
 }
-
+.content-right-two:hover{
+    width:210px;
+    transform: scale(1.5);
+}
 .content-right-two h1 {
     font-weight: 500;
     font-size: 16px;
@@ -853,6 +868,12 @@ header {
     background: #FFFFFF;
     box-shadow: 0px 12px 120px -10px rgba(0, 0, 0, 0.08);
     border-radius: 20px;
+    transition: width 0.3s, transform 0.3s;
+}
+.content-right-three:hover {
+    width:150px;
+    transform: scale(1.5);
+    z-index:4;
 }
 .content-right-three img{
     border-radius: 50px;
@@ -1139,24 +1160,29 @@ color: #353945;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 9px 29px 8px 28px;
+text-align: center;
+padding: 9px 13px 8px 13px;
 gap: 10px;
 
 width: 110px;
 height: 38px;
-border:none;
+border:2px solid #3B71FE;
 /* primary/primary */
 
 background: #3B71FE;
 border-radius: 6px;
-}
-.eight-button p{
-    margin:0;
-    color:#ffffff;
+color:#ffffff;
     font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 21px;
+transition:0.3s;
+}
+.eight-button:hover{
+    
+    color:#3B71FE;
+    background-color: #ffffff;
+    
 }
 .content-eight-left {
     display: flex;

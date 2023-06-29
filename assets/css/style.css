@@ -1930,9 +1930,11 @@ body {
     }
 .two{
     padding:30px 0;
+    position: relative;
 }
     .card-first {
         width: 100%;
+        margin-bottom:30px;
     }
 
     .card-first p {
@@ -1953,9 +1955,11 @@ body {
     }
 
     .card-second {
-        width: 100%;
+        width: 107.339%;
         overflow-y: hidden;
         overflow-x: scroll;
+        padding-bottom:10px;
+        margin-right:-24px;
     }
 
     .second-content {
@@ -2016,6 +2020,23 @@ body {
 
     }
 
+    .card-second-mini:not(:last-child){
+        margin-right:30px;
+    }
+    .seconds{
+        padding:30px 0;
+    }
+    
+    .card-second-mini span{
+        color: var(--gray-2, #353945);
+
+/* body/bodi 12 (Medium) */
+font-size: 12px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
     .content-in p {
         font-size: 10px;
     }
@@ -2152,7 +2173,7 @@ body {
         line-height: 18px;
         width: 100%;
         margin-top: 20px;
-        margin-bottom: 155px;
+        
     }
 
     .content-four-left {
@@ -2167,10 +2188,9 @@ body {
         overflow-y: hidden;
         overflow-x: scroll;
         padding-bottom:8px;
-        position: absolute;
-        width:351px;
-        z-index: 1;
-        bottom:25px;  
+        margin-right: -24px;
+        width:107.339%;
+        
     }
     .content-four-bottom {
         display: inline-flex;

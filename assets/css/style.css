@@ -1805,7 +1805,7 @@ body {
     }
 
     .menus ul li:last-child {
-        margin: 0 8px !important;
+        margin: 0 0 0 8px !important;
 
     }
 
@@ -1825,7 +1825,10 @@ body {
         width: 24px;
         height: 24px;
     }
-
+    .sc a svg{
+        width:24px;
+        height:24px;
+    }
     .menus ul li:not(:first-child) {
         margin-left: 12px;
 
